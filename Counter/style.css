@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+center{
+    margin-top: 15%;
+}
+h1{
+    color: rgb(39, 39, 39);
+    font-size: 50px;
+}
+span{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+ button:hover{
+    border: 1px solid;
+ }

@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+center{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+
+hr{
+    width: 100px;
+}
+
+.review-pane{
+    background-color:  rgb(222, 237, 255);
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 455px;
+    padding: 10px;
+    
+}
+
+.img-container img{
+    /* border-radius: 100%;
+    height: 160px; */
+    clip-path: circle();
+    width: 150px;
+    margin-left: 140px;
+}
+
+.description{
+    font-size: 20px;
+    margin-left:180px;
+    margin-top: -33px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+.description p:last-child{
+    margin-top: -20px;
+    /* margin-left: 10px; */
+}
+.btns{
+    margin-left: 150px;
+}
+
+.btns button{
+    margin: 5px;
+   padding: 5px;
+   border-radius: 5px;
+   border-style:ridge;
+}
+.slid-btn button{
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+.surprise-btn{
+   font-size: 15px;
+   font-family: 'Trebuchet MS', 
+   'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.btns button.surprise-btn{
+    margin-left: 15px;
+}
+button:hover{
+border-color: rgb(163, 161, 161);
+border-width: 3px;
+}
